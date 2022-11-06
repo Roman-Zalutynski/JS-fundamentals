@@ -117,12 +117,30 @@
 
 
 // the same example with for loop 
-for (let i = 0; ; i++) {
-   const age = +prompt('How old are you?');
-   if (age) {
-      alert('Welcome to our website');
-      break;
-   }
-   alert('Please add the numbers only');
-}
-alert('End');
+// for (let i = 0; i < 3; i++) {
+//    const age = +prompt('How old are you?');
+//    if (age) {
+//       alert('Welcome to our website');
+//       break;
+//    }
+//    alert('Please add the numbers only');
+// }
+// alert('End');
+
+
+// for (let i = 0; ; i++) {
+
+//    if (i <= 3) {
+//       const age = +prompt('How old are you?');
+//       if (age) {
+//          alert('Welcome to our website');
+//          break;
+//       }
+//       alert('Please add the numbers only');
+//    } else {
+//       alert('Your attempts are finished');
+//       break;
+//    }
+
+// }
+// alert('End');
