@@ -115,7 +115,6 @@
 // }
 // alert('End');
 
-
 // the same example with for loop 
 // for (let i = 0; i < 3; i++) {
 //    const age = +prompt('How old are you?');
@@ -129,7 +128,6 @@
 
 
 // for (let i = 0; ; i++) {
-
 //    if (i <= 3) {
 //       const age = +prompt('How old are you?');
 //       if (age) {
@@ -141,6 +139,49 @@
 //       alert('Your attempts are finished');
 //       break;
 //    }
-
 // }
 // alert('End');
+
+//! 21 Operator continue
+// let arr = [1, 33, 50, 61, 70, 80, 100, 99];
+
+// for (let index = 0; index < arr.length; index++) {
+//    if (arr[index] % 2 !== 0) continue; // shows even numbers 
+//    if (arr[index] % 2 === 0) continue; // shows od numbers
+//    console.log(arr[index]);
+// }
+
+//! 23 Functions
+
+// function sum(a, b) {
+//    // console.log(a + b);
+//    return a + b;
+// }
+// console.log(sum(4, 6));
+
+// function getNumberData(question) {
+//    while (true) {
+//       const res = +prompt(question);
+//       if (res === 0 || res) {
+//          return res;
+//       }
+//    }
+// }
+// const age = getNumberData('How old are you?');
+// console.log(age);
+
+
+// function getNumberData(question) {
+//    while (true) {
+//       const res = +prompt(question);
+
+//       if (res === 0 || res) {
+//          return res;
+//       } else {
+//          alert('Please, add the numbers only!');
+//       }
+//       continue;
+//    }
+// }
+// const age = getNumberData('How old are you?');
+// console.log(age);
