@@ -10,16 +10,15 @@ let tries = 1;
 //    }
 // }
 
-// solution from the video:
+//! Lesson28 solution from the video:
 // Math.ceil(Math.random() * 10);
+// function guessNum(num) {
+//    if (tries >= 3) return alert('Game over, reload the page');
 
-function guessNum(num) {
-   if (tries >= 3) return alert('Game over, reload the page');
-
-   if (num === secretNum) {
-      alert('You guess');
-   } else {
-      alert('Try once more, your attempts - ' + tries);
-      tries++;
-   }
-}
+//    if (num === secretNum) {
+//       alert('You guess');
+//    } else {
+//       alert('Try once more, your attempts - ' + tries);
+//       tries++;
+//    }
+// }
