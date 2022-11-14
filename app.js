@@ -185,3 +185,10 @@
 // }
 // const age = getNumberData('How old are you?');
 // console.log(age);
+
+//! 25 Math methods
+
+// console.log(Math.random()); // random number from 0 to 1
+// console.log(Math.floor(1.3)); // = 1 rounds to smaller number
+// console.log(Math.ceil(1.3)); // = 2 rounds to biggest number
+// console.log(Math.round(3.4)); // rounds to needed number on math rules
