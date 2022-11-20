@@ -109,3 +109,4 @@
 // console.log(str.replace(/javascript/gi, 'php')); // change the found word to new. All found words will be changed.
 //console.log(str.match(/javascript/gi)); // return the array with looked value. 
 
+// ! module 3 practice => finished (see the folder 'practiceFrom3module') 
