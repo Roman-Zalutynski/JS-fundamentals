@@ -85,9 +85,7 @@
 // console.log(num.toLocaleString('pl-PL', { style: 'currency', currency: 'PLN' })); // convert number to local format for different countries + currency 
 
 // ! module 3 lesson 14  arrays methods
-
 // const arr = [1, 2, 3, 4, 5, 6];
-
 // console.log(arr.pop()); // cut the last arr's element 
 // console.log(arr.push(2)); // put the element to the end of array
 // console.log(arr.shift()); // cut the first arr's element and return it
@@ -98,7 +96,16 @@
 // console.log(newArr);
 // let arr2 = arr.concat([7, 8, 9]); // concat the arrays to the one array
 // console.log(arr2);
-
 // console.log(arr);
 
+
+// ! module 3 lesson 17 RegExp
+// const regex1 = /\w+/; // 1 way to declare regexp
+// const regex2 = new RegExp('\\w+'); // 2 way to declare regexp
+// const str = 'JavaScript is a cool language. Every developer should know javascript';
+// console.log(/JavaScript/.test(str)); // true
+// console.log(/javascript/i.test(str)); //true  i - helps to find the needed word without comparing the case of letters
+// console.log(str.replace(/javascript/i, 'php')); // change the found word to new - In this case, only the first found word will be changed 
+// console.log(str.replace(/javascript/gi, 'php')); // change the found word to new. All found words will be changed.
+//console.log(str.match(/javascript/gi)); // return the array with looked value. 
 
