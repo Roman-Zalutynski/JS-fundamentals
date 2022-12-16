@@ -106,7 +106,7 @@
 // console.log(/JavaScript/.test(str)); // true
 // console.log(/javascript/i.test(str)); //true  i - helps to find the needed word without comparing the case of letters
 // console.log(str.replace(/javascript/i, 'php')); // change the found word to new - In this case, only the first found word will be changed 
-// console.log(str.replace(/javascript/gi, 'php')); // change the found word to new. All found words will be changed.
+// console.log(str.replace(/javascript/gi, 'php')); // change the found word to the new. All found words will be changed.
 //console.log(str.match(/javascript/gi)); // return the array with looked value. 
 
 // ! module 3 practice => finished (see the folder 'practiceFrom3module') 
