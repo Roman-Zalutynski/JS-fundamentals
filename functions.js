@@ -117,19 +117,41 @@
 // const helloWorld = closure('world');
 // helloWorld();
 
+// function outer() {
+//    let counter = 0;
 
-function outer() {
-   let counter = 0;
+//    function incrementCounter() {
+//       console.log(++counter);
+//    }
 
-   function incrementCounter() {
-      console.log(++counter);
-   }
+//    return incrementCounter;
+// }
 
-   return incrementCounter;
-}
+// const myCounter1 = outer();
+// myCounter1();
+// myCounter1();
+// myCounter1();
+// myCounter1();
 
-const myCounter1 = outer();
-myCounter1();
-myCounter1();
-myCounter1();
-myCounter1();
+
+// !module 4 lesson 9 context This
+// function print() {
+//    console.log(this);
+// }
+// print();
+
+// const print2 = () => {console.log(this);}; // arrow function doesn't have own this (context)
+// print2();
+
+// const cat = {
+//    name: 'Murka',
+//    say() {
+//       // const greeting = () => console.log(this.name); // arrow function used. 
+//       function greeting() {console.log(this.name);} // It won't be work, because such function uses 
+// //the global context, if I delete the name and leave only this, we'll be able to see 
+// //the global object's methods   
+//       setTimeout(greeting, 1000); // will print the object's name with delay in 1 second! 
+//    }
+// };
+
+// cat.say();
