@@ -155,3 +155,28 @@
 // };
 
 // cat.say();
+
+// !module 4 lesson 10 call, apply, and bind
+
+const developer = {
+   name: 'Roman',
+   salary: 2500, 
+
+   getBonus(sum) {
+      console.log(this.name, 'has a salary this month', this.salary + sum);
+   }
+}; 
+// developer.getBonus(250);
+
+// we can use method from the object developer for another object: 
+
+const manager = {
+   name: 'Natalia',
+   salary: 1800, 
+};
+
+// developer.getBonus.call(manager, 150); // parameters divided by comas
+// developer.getBonus.apply(manager, [150]); // parameters share like array
+//manager.getBonus = developer.getBonus.bind(manager); // the same method, which is 
+
+//manager.getBonus(150);
